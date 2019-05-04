@@ -1,0 +1,30 @@
+# Virtual Environment
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6473992f046e6928c913766267e86de67b177c4d
+stockenv/
+.stockenv
+.venv
+venv/
+
+# Database
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6473992f046e6928c913766267e86de67b177c4d
+*.sqlite3
+migrations/
+db.sqlite3
+
+# extras
+<<<<<<< HEAD
+.idea/
+
+# Pycache files
+StockMonitor/_pycache_
+mysite/_pycache_
+=======
+
+.idea/
+>>>>>>> 6473992f046e6928c913766267e86de67b177c4d
