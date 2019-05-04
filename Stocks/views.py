@@ -20,9 +20,12 @@ def stocks(request):
 				json_data = json.loads(r.text)
 				#print(json_data)
 				d = json_data["Global Quote"]
+				
 				print(d['02. open'])
 				#open_price = json_data.get('Global Quote').get('02. open')
 				stock.open_price = d['02. open']
+				stock.high_price = d['03. high']
+				stock.low_price  = d['04. low']
 			
 			stock.save()	
 
