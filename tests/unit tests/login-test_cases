@@ -1,0 +1,205 @@
+UNIT TESTING FOR LOGIN MODULE
+------------------------------
+Test Case ID    :TU01	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygnjutfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU02	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password =ppppaaapa
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU03	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = karanm123 Password =bhygnjutfv
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU04	
+Test Scenario   :Check Null value for password	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = karanm123 Password = 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+
+Test Case ID    :TU05	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =  Password =bhygnjutfv 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+
+Test Case ID    :TU06	
+Test Scenario   :Check Password	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygn@j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU07	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygn@j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU08	
+Test Scenario   :Check Null value for both	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =  Password = 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+-----
+Test Case ID    :TU09	
+Test Scenario   :Check Customer	
+Test Steps      :Login with invalid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm$$$ Password = bhygnjutfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU10	
+Test Scenario   :Wrong action	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password =bhygnjutfv
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fail Results
+
+Test Case ID    :TU011	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = karanm123 Password =bhygnjutfv
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU012	
+Test Scenario   :Check Null value for password	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = karanm123 Password = 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+
+Test Case ID    :TU013	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =  Password =bhygnjutfv 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+
+Test Case ID    :TU014	
+Test Scenario   :Check Password	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygn@j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU015	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygn@j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU016	
+Test Scenario   :Check Null value for both	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =Arjun123  Password =asd342413 
+Expected Results:User should not Login into an application	
+Actual          :As Expected
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU017	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =@@ Password =bhygnjutfv 
+Expected Results:User should not Login into an application	
+Actual          :Error Message pops out	
+Pass/Fail       :Fails Results
+
+Test Case ID    :TU018	
+Test Scenario   :Check Password	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = arjun123 Password = bhygn@##j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU019	
+Test Scenario   :Check Customer	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid = mohitm123 Password = bhygn@j123utfv	
+Expected Results:User should Login into an application	
+Actual          :As Expected	
+Pass/Fail       :Pass Results
+
+Test Case ID    :TU020	
+Test Scenario   :Check Null value for both	
+Test Steps      :Login with valid Data
+                 Enter UserId
+                 Enter Password 	
+Test Data       :Userid =Karan123  Password =121342413 
+Expected Results:User should not Login into an application	
+Actual          :As Expected
+Pass/Fail       :Pass Results
+
+
+
+
